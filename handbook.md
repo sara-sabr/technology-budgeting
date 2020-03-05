@@ -40,7 +40,7 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 
 ## Introduction
 
-Only 13% of large government software projects are successful.<sup id="reference-1"><a href="#footnote-1">1</a></sup> State IT projects, in particular, are often challenged because states lack basic knowledge about modern software development, relying on outdated procurement processes. Every year, the federal government matches billions of dollars in funding to state and local governments to maintain and modernize IT systems used to implement federal programs such as Medicaid, child welfare benefits, housing, and unemployment insurance. Efforts to modernize those legacy systems fail at an alarmingly high rate and at great cost to the federal budget.
+Only 13% of large government software projects are successful.<sup id="reference-1"><a href="#footnote-1">1</a></sup> State IT projects, in particular, are often challenged because states lack basic knowledge about modern software development, relying on outdated procurement processes. Every year, the federal government sends hundreds of millions of dollars to provincial governments in order to support programs pertaining to health care and social programs<sup id="reference-2"><a href="#footnote-2">2</a></sup>, in addition to their spending on federal programs such as income security, and housing programs<sup id="reference-3"><a href="#footnote-3">3</a></sup>.
 
 State governments are increasingly reliant on modern software and hardware to implement federal programs and deliver essential services to the public, and the success of any major policy initiative depends on the success of the underlying software infrastructure. Government agencies all confront similar challenges, facing budget and staffing constraints while struggling to modernize legacy technology systems that are out-of-date, inflexible, expensive, and ineffective.<sup id="reference-2"><a href="#footnote-2">2</a></sup> Government officials and agencies often rely on the same legacy processes that led to problems in the first place.
 
@@ -574,6 +574,14 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 <small>
 
 <p class="footnote" id="footnote-1">1. Projects valued at $6M or greater, in Europe and the United States, that were completed satisfactorily, on time, and within budget. From The Standish Group’s "<a href="https://www.standishgroup.com/sample_research_files/Haze4.pdf">Haze</a>," based on their CHAOS database. <a href="#reference-1">↩︎</a></p>
+
+<p class="footnote" id="footnote-2"><a href="http://webarchive.bac-lac.gc.ca:8080/wayback/20151015222945/http:/tbs-sct.gc.ca/ppg-cpr/OpenData/PPG2013-14_ProgramActivities.csv">
+OGSP for 2013-14 by Program Activities</a>
+<a href="#reference-2">↩︎</a></p>
+
+<p class="footnote" id="footnote-3"><a href="https://www.canada.ca/en/department-finance/programs/federal-transfers/major-federal-transfers.html#Ontario">
+Major federal transfers</a>
+<a href="#reference-3">↩︎</a></p>
 
 <p class="footnote" id="footnote-2">2. Of the $90 billion in federal IT spending in FY2019, 80% is allocated for maintenance of legacy software, according to the GAO’s June 2019 report, "<a href="https://www.gao.gov/products/GAO-19-471">Agencies Need to Develop Modernization Plans for Critical Legacy Systems</a>." They write that inadequately-maintained legacy software leads to security risks, unmet mission needs, staffing issues, and increased costs. <a href="#reference-2">↩︎</a></p>
 
