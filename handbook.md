@@ -237,17 +237,15 @@ While it may be tempting to solve this knowledge gap by relying on somebody from
 
 To determine if your budget office or your leadership has the experience to consider software requests or lead software projects, start by asking around. All but the smallest agencies will have technical staff who can join project leadership, although vanishingly few budget offices currently employ software developers.
 
-If you don’t currently have the knowledge you need in-house, you’ll need to hire someone who does — even if only seasonally or on contract. A developer or designer with experience building modern software, ideally for government, is your best bet. Also, consider authorizing one or more employees to spend some of their training time learning the basics of agile software development. Departments are encouraged to support their stuff, or start initiatives, aimed at promoting understanding of basic mordern software development concepts. For example, the IT Strategy team from within IITB has begun working in collaboration with the Research and Development team to create a [Contiuous Learning application](https://github.com/sara-sabr/ContinuousLearningApp), intended to help spread knowledge of, and measure knowledge of, foundational development practices within the department.
-
-— there are coding (TO-DO)"bootcamps" throughout the U.S., including some online-only options.
+If you don’t currently have the knowledge you need in-house, you’ll need to hire someone who does — even if only seasonally or on contract. A developer or designer with experience building modern software, ideally for government, is your best bet. Also, consider authorizing one or more employees to spend some of their training time learning the basics of agile software development. Departments are encouraged to support their stuff, or start initiatives (such as bootcamps), aimed at promoting understanding of foundational modern software development concepts. For example, the IT Strategy team from within IITB has begun working in collaboration with the Research and Development team to create a [Contiuous Learning application](https://github.com/sara-sabr/ContinuousLearningApp), intended to help spread knowledge of, and measure knowledge of, foundational development practices within the department.
 
 The personnel cost of bringing in a developer or upskilling your current employees is miniscule in comparison to spending on technology. And once an employee has monitored an agile project from start to finish, they’ll be better equipped to consider future budget requests for custom software.
 
-Likewise, mission agencies must directly employ enough developers that they can oversee the work being done by vendors. They’ll represent the contracting officer, ensuring that vendors’ work is of a high quality and that vendors are working on the right things.
+Organizations must directly employ enough developers that they can oversee the work being done by vendors. They’ll represent the contracting officer, ensuring that vendors’ work is of a high quality and that vendors are working on the right things.
 
 Although software is never "done" — you’ll always need to adapt to changing technology, policy, regulations, laws, and user needs — there will be a point when you need far fewer developers to continue that work. At that point it becomes especially important to have multiple agency employees who fully grasp the software, who are capable of maintaining it.
 
-For larger projects, you’ll need to contract for a development team indefinitely, under the oversight of a government product owner. Under waterfall, this travels under the name of "Operations and Maintenance," but under agile, O&amp;M is simply continued user research, design, software development, etc.<sup id="reference-9"><a href="#footnote-9">9</a></sup>
+For larger projects, you’ll need to contract for a development team indefinitely, under the oversight of a government product owner. Under waterfall, this travels under the name of "Operations and Maintenance," but under agile, O&amp;M is simply continued user research, design, software development, etc.<sup id="reference-11"><a href="#footnote-11">11</a></sup>
 
 #### Checklist
 
@@ -258,18 +256,18 @@ For larger projects, you’ll need to contract for a development team indefinite
 #### Key questions
 
 - When a vendor delivers code at the end of every sprint, which _specific_ government employee will inspect that code to ensure quality?
-- If an agency says they need \$10 million to complete a specific software project, which budget office employee is equipped to know whether that’s an appropriate price? Which _specific_ legislative budget committee employee is equipped to know whether that’s an appropriate price?
-- When the procurement is complete, who will maintain the software? Does the agency employ people who know how to maintain it? Will they be brought into the development process so that they can learn about it as it’s built and help ensure it’s something they’re capable of supporting?
+- If an agency says they need \$10 million to complete a specific software project, which budget office employee is equipped to know whether that’s an appropriate price? Which _specific_ budget committee employee is equipped to know whether that’s an appropriate price?
+- When the procurement is complete, who will maintain the software? Does the organization employ people who know how to maintain it? Will they be brought into the development process so that they can learn about it as it’s built and help ensure it’s something they’re capable of supporting?
 
 ### Minimize the cost of change
 
-Your state government will exist longer than any piece of software. And that means one day, your exciting new software system could someday become your hard-to-use, old software system.
+Your department, board, or agency, will exist longer than any piece of software. And that means one day, your exciting new software system could someday become your hard-to-use, old software system.
 
-As good as software may be today, eventually you’ll need to switch to a new system – whether that’s in whole or in part. And acquiring software as a completed monolith guarantees it will gradually become unable to support an agency’s needs.
+As good as software may be today, eventually you’ll need to switch to a new system – whether that’s in whole or in part. And acquiring software as a completed monolith guarantees it will gradually become unable to support an organization's needs.
 
 Technology changes, government policies change, regulations change, laws change, federal grant requirements change, and leadership’s priorities change — any project that is planned in great detail up front will be unable to adapt to those changes, and will be at significant risk of failure, significant cost and deadline overruns, or costly "change orders."
 
-So rather than acquiring one giant piece of proprietary software, insist that your vendors default to practices like using open-source software and service-oriented architecture. That way, you can optimize for reducing the cost of updating and changing the system from the beginning.
+Rather than acquiring one giant piece of proprietary software insist that your vendors default to practices like using open-source software and service-oriented architecture. That way, you can optimize for reducing the cost of updating and changing the system from the beginning.
 
 #### Checklist
 
@@ -290,9 +288,9 @@ So rather than acquiring one giant piece of proprietary software, insist that yo
 
 ### Measure success based on iterative outcomes, not project milestones
 
-Value shouldn’t come at the end of a project — it must be provided to end users within no more than six months of the contract being awarded, and constantly from there on out. At the end of the _first_ sprint, working code must be delivered to the agency for its review, and that must continue with every subsequent sprint. End users should evaluate work at the end of each sprint, regardless of whether the work has yet been deployed for daily use.
+Value shouldn’t come at the end of a project — it must be provided to end users within no more than six months of the contract being awarded, and constantly from there on out. At the end of the _first_ sprint, working code must be delivered to the organization for its review and that must continue with every subsequent sprint. End users should evaluate work at the end of each sprint regardless of whether the work has yet been deployed for daily use.
 
-Don’t measure progress in "story points," lines of code written, person-hours of work, etc. The only measure of success that matters is what value has been delivered to end users. This is best assessed by attending semi-weekly sprint reviews and talking to both the scrum master and the government product owner.
+Don’t measure progress in "story points", lines of code written, person-hours of work, etc. The only measure of success that matters is what value has been delivered to end users. This is best assessed by attending semi-weekly sprint reviews and talking to both the scrum master and the government product owner.
 
 #### Checklist
 
@@ -300,16 +298,16 @@ Don’t measure progress in "story points," lines of code written, person-hours 
 - [ ] The vendor will be required to deploy functioning software into a government-owned environment at the end of each sprint
 - [ ] The project team will interview and test their work with end users routinely, both to inform planned work and to determine whether the work already done is correct
 - [ ] The RFP will have no mention of a detailed project schedule, and there will be no mention of Gantt charts or Independent Validation and Verification (IV&amp;V) contracts
-- [ ] A legislative staffer will be assigned to provide oversight of the project, and will coordinate with project leadership to monitor progress by periodically attending sprint reviews
+- [ ] A government employee will be assigned to provide oversight of the project, and will coordinate with project leadership to monitor progress by periodically attending sprint reviews
 
 #### Key questions
 
-- Can the requesting agency deliver value to end users within six months? What, specifically, is that value?
-- Is the agency prepared for the vendor to continuously interview and test their work with actual end users of the software — perhaps including agency employees?
+- Can the requesting department or agency deliver value to end users within six months? What, specifically, is that value?
+- Is the department or agency prepared for the vendor to continuously interview and test their work with actual end users of the software — perhaps including agency employees?
 
 ### Limit total spending
 
-The greater the amount of money spent on a software project, the greater the odds of failure. As a general rule, plan to spend no more than \$10 million on an entire project.<sup id="reference-10"><a href="#footnote-10">10</a></sup> (There are rare exceptions for extraordinarily complex systems like unemployment insurance, Medicaid Eligibility &amp; Enrollment, and Medicaid Management Information Systems.)
+The greater the amount of money spent on a software project, the greater the odds of failure. As a general rule, plan to spend no more than \$10 million on an entire project.<sup id="reference-12"><a href="#footnote-12">12</a></sup> (There are rare exceptions for extraordinarily complex systems like employment insurance, pension plans, and or old age security.)
 
 #### Checklist
 
@@ -318,16 +316,15 @@ The greater the amount of money spent on a software project, the greater the odd
 #### Key questions
 
 - If the project "requires" \$20 million in funding, what value can be delivered to end users with \$10 million? Or \$2 million? (If the answer is "none," then this is a project doomed to fail)
-- When this spending is matched by federal dollars — especially at a highly-leveraged rate, like the 9:1 match provided by the Centers for Medicare &amp; Medicaid Services for Medicaid Management Information Systems — is anybody going to get in trouble for leaving money on the table?
-- Is there somebody whose performance is measured by how much grant funding they raise and who has an incentive to demand that \$100 million be spent, instead of \$10 million?
+- Is there somebody whose performance is measured by how much funding they raise and who has an incentive to demand that \$100 million be spent, instead of \$10 million?
 
 ### Limit contract sizes
 
-Using a single vendor over a long period of time, or for a large number of teams, may feel more comfortable, but it inevitably leads to vendor lock-in. Breaking up projects into several small contracts incentivizes vendors to build a sustainable software ecosystem, instead of a monolith, and makes each contract small enough that the odds of success increase markedly.<sup id="reference-11"><a href="#footnote-11">11</a></sup>
+Using a single vendor over a long period of time, or for a large number of teams, may feel more comfortable, but it inevitably leads to vendor lock-in. Breaking up projects into several small contracts incentivizes vendors to build a sustainable software ecosystem, instead of a monolith, and makes each contract small enough that the odds of success increase markedly.<sup id="reference-13"><a href="#footnote-13">13</a></sup>
 
 Require that no more than \$2 million be spent on any single contract annually, and that no contract last for more than three years, including option periods. That way, you’ll get no more than two development teams from a single vendor. If the project needs more development teams, obtain them from another vendor and have them work separately. Limit the RFP, too, keeping it below 20 pages; don’t spend any longer than 60 days writing it.
 
-In addition to preventing lock-in, there’s another benefit to using smaller contracts: they’re less likely to be protested, because the dollar value doesn’t justify the trouble and legal costs. If you’re respectful and transparent with vendors, and don’t require hundreds of pages of proposals, they will likely want to do business with your agencies in the future.
+In addition to preventing lock-in, there’s another benefit to using smaller contracts: they’re less likely to be protested, because the dollar value doesn’t justify the trouble and legal costs. If you’re respectful and transparent with vendors, and don’t require hundreds of pages of proposals, they will likely want to do business with your organizations in the future.
 
 As the number of people who work on a project increases, so does the amount of time that all of those people have to spend coordinating with each other. The solution to this is to have them work in parallel, which is possible when building with loosely coupled parts. Having more than one vendor team working on your project also provides you with more competitive options if you need to change vendors.
 
@@ -363,7 +360,7 @@ Don’t replace the old legacy system with a new legacy system. Insist on loosel
 
 Your existing vendors are unlikely to employ the modern software development practices outlined in this handbook — they were hired for their legacy practices back when that was what you needed. To find vendors who meet your new needs, you’ll likely need to identify and attract new companies that use modern software development practices.
 
-If it is important to get bids from in-state vendors, then know that odds are good that there are many qualified small businesses that can deliver agile development programs in your state.<sup id="reference-12"><a href="#footnote-12">12</a></sup> However, if you want to drive down the price of bids, then it’s important to consider working with remote or distributed (rather than on-site) vendor teams.
+If it is important to get bids from local vendors then know that odds are good that there are many qualified small businesses that can deliver agile development programs in your area.<sup id="reference-12"><a href="#footnote-12">12</a></sup> However, if you want to drive down the price of bids, then it’s important to consider working with remote or distributed (rather than on-site) vendor teams.
 
 In places like California, Washington, New York, Virginia, and Maryland, the cost of an agile team can be easily twice the cost of a team in the Midwest or the northern plains — a difference of over \$1 million each year with no difference in quality. That’s a price point at which it’s worth rethinking how important it is that the team be local, or even in-state.<sup id="reference-13"><a href="#footnote-13">13</a></sup> Encouraging distributed vendor teams also gives you access to a wider talent pool, so it’s smart to embrace distributed working best practices to engage with development teams<sup id="reference-14"><a href="#footnote-14">14</a></sup> and only require on-site visits when necessary (such as for user research).
 
@@ -606,7 +603,7 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 
 <a href="#reference-10">↩︎</a></p>
 
-<p class="footnote" id="footnote-9">9. For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software maintenance is an anti-pattern"</a> on the 18F blog. <a href="#reference-9">↩︎</a></p>
+<p class="footnote" id="footnote-11">11. For more about the difference between O&amp;M and continuous agile development, read <a href="https://18f.gsa.gov/2016/02/23/software-maintenance-is-an-anti-pattern/">"Software maintenance is an anti-pattern"</a> on the 18F blog. <a href="#reference-11">↩︎</a></p>
 
 <p class="footnote" id="footnote-10">10. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects that cost more than $10 million succeed only 8% of the time</a>. Outcomes improve substantially as the dollar value is reduced, peaking at a 70% success rate for projects under $1 million. <a href="#reference-10">↩︎</a></p>
 
