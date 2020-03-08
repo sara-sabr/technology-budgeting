@@ -20,7 +20,7 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 
 Only 13% of large government software projects are successful.<sup id="reference-1"><a href="#footnote-1">1</a></sup> Every year, the federal government sends hundreds of millions of dollars to provincial governments in order to support programs pertaining to health care and social programs<sup id="reference-2"><a href="#footnote-2">2</a></sup>, in addition to their spending on federal programs such as income security, and housing programs<sup id="reference-3"><a href="#footnote-3">3</a></sup>.
 
-Governments are increasingly reliant on modern software and hardware to implement federal programs and deliver essential services to the public, and the success of any major policy initiative depends on the success of the underlying software infrastructure. Government agencies all confront similar challenges, facing budget and staffing constraints while struggling to modernize legacy technology systems that are out-of-date, inflexible, expensive, and ineffective.<sup id="reference-4"><a href="#footnote-4">4</a></sup> Government officials and agencies often rely on the same legacy processes that led to problems in the first place.
+Governments are increasingly reliant on modern software and hardware to implement federal programs and deliver essential services to the public, and the success of any major policy initiative depends on the success of the underlying software infrastructure. Government agencies all confront similar challenges, facing budget and staffing constraints while struggling to modernize legacy technology systems that are out-of-date, inflexible, and expensive.<sup id="reference-4"><a href="#footnote-4">4</a></sup> Government officials and agencies often rely on the same legacy processes that led to problems in the first place.
 
 The public deserves a government that provides the same world-class technology they get from the commercial marketplace. Trust in government depends on it.
 
@@ -574,11 +574,17 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 OGSP for 2013-14 by Program Activities</a>
 <a href="#reference-2">↩︎</a></p>
 
-<p class="footnote" id="footnote-3"><a href="https://www.canada.ca/en/department-finance/programs/federal-transfers/major-federal-transfers.html#Ontario">
-Major federal transfers</a>
+<p class="footnote" id="footnote-3">
+<a href="https://www.canada.ca/en/department-finance/programs/federal-transfers/major-federal-transfers.html#Ontario">Major federal transfers</a>
 <a href="#reference-3">↩︎</a></p>
 
-<p class="footnote" id="footnote-4">2. Of the $90 billion in federal IT spending in FY2019, 80% is allocated for maintenance of legacy software, according to the GAO’s June 2019 report, "<a href="https://www.gao.gov/products/GAO-19-471">Agencies Need to Develop Modernization Plans for Critical Legacy Systems</a>." They write that inadequately-maintained legacy software leads to security risks, unmet mission needs, staffing issues, and increased costs. <a href="#reference-4">↩︎</a></p>
+<p class="footnote" id="footnote-4">
+
+<a href="https://www.oag-bvg.gc.ca/internet/English/parl_oag_201004_01_e_33714.html">2010 Spring Report of the Auditor General of Canada</a>: The cost to renew and modernize IT systems are significant and can take many years to fund, and implementation can take five years or longer. Without sufficient and timely investments to modernize or replace aging systems, the ability of departments and agencies to serve Canadians is at risk.
+
+<a href="https://www.cbc.ca/news/politics/federal-it-systems-critical-failure-1.5448871">Aging government computer systems at risk of 'critical failure,' Trudeau warned</a>: Officials briefing Trudeau after his party's re-election noted "mission-critical" systems and applications are "rusting out and at risk of failure," requiring immediate attention from his government.
+
+<a href="#reference-4">↩︎</a></p>
 
 <p class="footnote" id="footnote-5">3. The National Association of State Budget Officers’ “2018 State Expenditure Report” finds that federal grants provide an average of 31.2% of each state’s budget, climbing by 5.7% in FY2018. <a href="#reference-5">↩︎</a></p>
 
