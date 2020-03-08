@@ -8,41 +8,19 @@ By [Robin Carnahan](mailto:robin.carnahan@gsa.gov), [Randy Hart](mailto:randy.ha
 
 18F, Technology Transformation Service, General Services Administration
 
-
-
 ## Table of contents
 
 - [Introduction](#introduction)
-- [Basic principles of modern software design](#basic-principles-of-modern-software-design)
-	- [User-centered design](#user-centered-design)
-	- [Agile software development](#agile-software-development)
-	- [Product ownership](#product-ownership)
-	- [DevOps](#devops)
-	- [Building with loosely coupled parts](#building-with-loosely-coupled-parts)
-	- [Modular contracting](#modular-contracting)
-- [Best practices for budgeting and overseeing tech projects](#best-practices-for-budgeting-and-overseeing-tech-projects)
-	- [Think about risk in a new way](#think-about-risk-in-a-new-way)
-	- [Procure services, not software](#procure-services-not-software)
-	- [Beware the customized commercial software trap](#beware-the-customized-commercial-software-trap)
-	- [Require demos, not memos](#require-demos-not-memos)
-	- [Hire tech talent in-house](#hire-tech-talent-in-house)
-	- [Minimize the cost of change](#minimize-the-cost-of-change)
-	- [Measure success based on iterative outcomes, not project milestones](#measure-success-based-on-iterative-outcomes-not-project-milestones)
-	- [Limit total spending](#limit-total-spending)
-	- [Limit contract sizes](#limit-contract-sizes)
-	- [Fund systems, not monoliths](#fund-systems-not-monoliths)
-	- [Expand your vendor pool](#expand-your-vendor-pool)
-	- [Share your software](#share-your-software)
-	- [Budget for software as an operational expense](#budget-for-software-as-an-operational-expense)
-	- [Ask technical questions of agencies](#ask-technical-questions-of-agencies)
+- [Basic principles of modern software design](#basic-principles-of-modern-software-design) - [User-centered design](#user-centered-design) - [Agile software development](#agile-software-development) - [Product ownership](#product-ownership) - [DevOps](#devops) - [Building with loosely coupled parts](#building-with-loosely-coupled-parts) - [Modular contracting](#modular-contracting)
+- [Best practices for budgeting and overseeing tech projects](#best-practices-for-budgeting-and-overseeing-tech-projects) - [Think about risk in a new way](#think-about-risk-in-a-new-way) - [Procure services, not software](#procure-services-not-software) - [Beware the customized commercial software trap](#beware-the-customized-commercial-software-trap) - [Require demos, not memos](#require-demos-not-memos) - [Hire tech talent in-house](#hire-tech-talent-in-house) - [Minimize the cost of change](#minimize-the-cost-of-change) - [Measure success based on iterative outcomes, not project milestones](#measure-success-based-on-iterative-outcomes-not-project-milestones) - [Limit total spending](#limit-total-spending) - [Limit contract sizes](#limit-contract-sizes) - [Fund systems, not monoliths](#fund-systems-not-monoliths) - [Expand your vendor pool](#expand-your-vendor-pool) - [Share your software](#share-your-software) - [Budget for software as an operational expense](#budget-for-software-as-an-operational-expense) - [Ask technical questions of agencies](#ask-technical-questions-of-agencies)
 - [Appendix A: Questions to ask](#appendix-a-questions-to-ask)
 - [Appendix B: Sample Quality Assessment Surveillance Plan](#appendix-b-sample-quality-assessment-surveillance-plan-qasp)
 
 ## Introduction
 
-Only 13% of large government software projects are successful.<sup id="reference-1"><a href="#footnote-1">1</a></sup> State IT projects, in particular, are often challenged because states lack basic knowledge about modern software development, relying on outdated procurement processes. Every year, the federal government sends hundreds of millions of dollars to provincial governments in order to support programs pertaining to health care and social programs<sup id="reference-2"><a href="#footnote-2">2</a></sup>, in addition to their spending on federal programs such as income security, and housing programs<sup id="reference-3"><a href="#footnote-3">3</a></sup>.
+Only 13% of large government software projects are successful.<sup id="reference-1"><a href="#footnote-1">1</a></sup> Every year, the federal government sends hundreds of millions of dollars to provincial governments in order to support programs pertaining to health care and social programs<sup id="reference-2"><a href="#footnote-2">2</a></sup>, in addition to their spending on federal programs such as income security, and housing programs<sup id="reference-3"><a href="#footnote-3">3</a></sup>.
 
-State governments are increasingly reliant on modern software and hardware to implement federal programs and deliver essential services to the public, and the success of any major policy initiative depends on the success of the underlying software infrastructure. Government agencies all confront similar challenges, facing budget and staffing constraints while struggling to modernize legacy technology systems that are out-of-date, inflexible, expensive, and ineffective.<sup id="reference-2"><a href="#footnote-2">2</a></sup> Government officials and agencies often rely on the same legacy processes that led to problems in the first place.
+Governments are increasingly reliant on modern software and hardware to implement federal programs and deliver essential services to the public, and the success of any major policy initiative depends on the success of the underlying software infrastructure. Government agencies all confront similar challenges, facing budget and staffing constraints while struggling to modernize legacy technology systems that are out-of-date, inflexible, expensive, and ineffective.<sup id="reference-2"><a href="#footnote-2">2</a></sup> Government officials and agencies often rely on the same legacy processes that led to problems in the first place.
 
 The public deserves a government that provides the same world-class technology they get from the commercial marketplace. Trust in government depends on it.
 
@@ -63,9 +41,13 @@ As government leaders, we must be good stewards of public money by demanding eas
 
 ### About the authors
 
-We work for [18F](https://18f.gov/), part of the Technology Transformation Services team at the [General Services Administration](https://www.gsa.gov/) (GSA). Collectively, the three of us have many years of experience in government procurement, software development, and state-level elective office.
+We work for
 
-In work funded by GSA’s [10x](https://10x.gsa.gov/), we spent a year exploring how to drive down the cost of federal technology grants to states while simultaneously improving outcomes. Federal grants provide 31% of state budgets, and as a major investor in major state software systems, the federal government is keenly interested in ensuring a good return on that investment.<sup id="reference-3"><a href="#footnote-3">3</a></sup> To accomplish that, we met with state legislators, legislative fiscal staff, state budget officers, contracting officers, and gubernatorial policy advisors. This handbook came of learning from and teaching hundreds of people from dozens of states. We’re grateful to the many people who contributed their time and knowledge throughout that process.
+We are the [IT Strategy team](https://sara-sabr.github.io/ITStrategy/home.html) which is part of SARA, which exists within the Innovation, Information and Technology Branch within [Employment and Social Development Canada (ESDC)](https://www.canada.ca/en/employment-social-development.html). Collectively, the nine of us have many years of experience spanning (X) departments within the federal government, from a range of backgrounds including software development, enterprise architecture, and policy.
+
+Formed in 2019, the team has spent a year analyzing the blockers to 'digitally transforming' government, and aligning with the recent and upcoming direction from the [Treasury Board of Canada Secretariat](https://www.canada.ca/en/treasury-board-secretariat.html). Throughout the year we have been engaging with stakeholders throughout the Government of Canada, as well as those within our own department, which employs over twenty thousand people on its own. During our work we rely heavily on research conducted by DevOps Research and Assessment (DORA), and are greatly inspired by our allies from around the world pushing for a modern and responsive government, such as our[18F](https://18f.gov/). This work is a Canadianized version of the great work 18F has done [here](https://github.com/18F/technology-budgeting), and this document is based on their initial version of this document.
+
+18F spent spent a year exploring how to drive down the cost of federal technology grants to states while simultaneously improving outcomes. In the US, federal grants provide 31% of state budgets, and as a major investor in major state software systems, the federal government is keenly interested in ensuring a good return on that investment.<sup id="reference-3"><a href="#footnote-3">3</a></sup> To accomplish that, 18F met with state legislators, legislative fiscal staff, state budget officers, contracting officers, and gubernatorial policy advisors. This handbook came of their learning from and teaching hundreds of people from dozens of states.
 
 ## Basic principles of modern software design
 
@@ -432,7 +414,7 @@ For small systems, this may require adding one or fewer FTEs to the agency’s s
 
 Software maintenance is sometimes budgeted for as if it is a different activity than initially building software, but that is a mistake. Maintaining software should mean simply continuing to modify it in response to identified user needs, which change continuously along with laws, regulations, policies, best practices, and technology. This requires the same skill sets, methodology, and tasks as building a system in the first place. A proposal to transition software development into an "operations and maintenance" ("O&amp;M") phase should be seen as a red flag,
 
-Rule of thumb: a "scrum team" of 5–9 developers costs 
+Rule of thumb: a "scrum team" of 5–9 developers costs
 \$1–2 million per year, depending on the cost of living in the area where the developers reside. Funding can be ramped up over the course of several budget cycles, as the requesting agency demonstrates that they’re successfully reducing risk, controlling costs, and delivering iteratively to end users.
 
 Ultimately, this can provide agencies with a predictable source of funding for software projects — replacing unpredictable capital expenditures — while simultaneously providing the legislature with a predictable annual cost for all agency software projects.
@@ -485,71 +467,85 @@ Wrong answer: Anything technical in nature, instead of about improving the user 
 Right answer: One or more specific user needs are named.
 
 ### What is the user need that this project will address?
+
 Wrong answer: Anything that doesn’t name clear needs of end users identified via user research.
 
 Right answer: The agency has determined specific needs based on interviews with end users, and can name several of those needs specifically.
 
 ### If the selected vendor doesn’t perform adequately, how difficult will it be to terminate the contract? How long will it take to replace them with another vendor? How much do you think that will cost?
+
 Wrong answer: "We would be very reluctant to terminate the contract. It would take months or years to replace them with a new vendor. Significant staff time would be required to do that, and it would set our project back by many months. Once we have a system, we’d have to start all over if we decide to change vendors."
 
 Right answer: "It will be a time and materials contract, so we could stop assigning work to the vendor at any time, and that would be the functional end of the contract. We could reissue the RFP and have a new vendor onboarded within six weeks. It would require a small amount of staff time, and it would set the project back only by those six weeks."
 
 ### Will the RFP include requirements for how the system will operate? If so, how many requirements are included?
+
 Wrong answer: "We’ve spent the past year reviewing our business requirements, and we’ve written hundreds of requirements to include in the RFP, to ensure that we get exactly what we need."
 
 Right answer: "We’re more focused on the outcomes we want from the new system. We’ve developed a backlog of user stories to help guide the team’s work, rather than producing a detailed list technical requirements."
 
 ### How long do you expect the RFP will be?
+
 Wrong answer: "We’ve developed several hundred pages of system requirements along with 50 more pages of standard terms and conditions."
 
 Right answer: "Less than 20 pages, and we expect to keep this under the state’s simplified procurement threshold, to make it easier, cheaper, and faster for new vendors to bid on the project."
 
 ### Do you anticipate issuing a fixed price contract, or a time and materials contract?
+
 Wrong answer: "Fixed price, because it’s the best way to control vendor costs."
 
 Right answer: "Time and materials, because it’s the best way to retain the flexibility we need to respond to user needs, manage to unforeseen technical challenges, and ensure vendors that aren’t delivering what we need can be changed without putting the project at risk."
 
 ### What value will be delivered to the users within six months?
+
 Wrong answer: "None — it won’t be ready by then. We plan to show it to users when everything is finished."
 
 Right answer: Specific examples are named.
 
 ### Who will be the product owner?
+
 Wrong answer: "What is a ’product owner’?"
 
 Right answer: A specific person is named, or they’re training in-house staff to take on this role.
 
 ### What software development process will be used?
+
 Wrong answer: "Waterfall," or any answer that indicates a lack of comprehension.
 
 Right answer: "Agile," "Extreme Programming" (XP), or "Scrum" are all acceptable answers.
 
 ### On the team that prepared this request, who has experience developing software?
+
 Wrong answer: "Nobody."
 
 Right answer: A specific person is named.
 
 ### How often will work be deployed into production?
+
 Wrong answer: "When it’s done."
 
 Right answer: "At the end of each sprint."
 
 ### Will the project automate testing? Integration? Deployment? Security tests?
+
 Wrong answer: "We’re looking into that."
 
 Right answer: "Yes, from day one."
 
 ### How much will change orders cost?
+
 Wrong answer: Any response that foresees change orders of any kind.
 
 Right answer: "We expect the system to change constantly in response to new user needs, new technology and new policy so that’s why we’re using a time and materials contract and an agile development approach to lower the cost of responding to these changes."
 
 ### How will you know if the project is on track and that contractors are delivering as promised?
+
 Wrong answer: "We’re contracting with an independent verification and validation (IV&amp;V) expert to provide us with monthly reports on the project’s status."
 
 Right answer: "Vendors will provide frequent demonstrations of working software that reflect our priorities, meet the technical standards of the QASP, and provide value to end users. If these standards are not met, and value to end users isn’t shown within six months, they’ll be terminated."
 
 ### Who will own the software?
+
 Wrong answer: "The vendor."
 
 Right answer: "The state" or "it will be committed to the public domain."
@@ -558,16 +554,15 @@ Right answer: "The state" or "it will be committed to the public domain."
 
 Per [the "Require demos, not memos" best practice](#require-demos-not-memos), here is a sample QASP, which should be incorporated into agile software RFPs.
 
-| **Deliverable** | **Performance Standard(s)** | **Acceptable Quality Level** | **Method of Assessment** |
-| --- | --- | --- | --- |
-| **Tested Code** | Code delivered under the order must have substantial test code coverage and a clean code baseVersion-controlled, public repository of code comprising the product, which will remain in the government domain | Minimum of 90% test coverage of all code | Combination of manual review and automated testing |
-| **Properly Styled Code** | [GSA 18F Front-End Guide](https://frontend.18f.gov/) | 0 linting errors and 0 warnings | Combination of manual review and automated testing |
-| **Accessibility** | Web Content Accessibility Guidelines 2.1 AA standards | 0 errors reported using an automated scanner, and 0 errors reported in manual testing | [Pa11y](https://github.com/pa11y/pa11y) |
-| **Deployed** | Code must successfully build and deploy into staging environment | Successful build with a single command | Combination of manual review and automated testing |
-| **Documented** | All dependencies are listed and the licenses are documented. Major functionality in the software/source code is documented. Individual methods are documented inline using comments that permit the use of documentation-generation tools such as [JSDoc](http://usejsdoc.org/). A system diagram is provided | Combination of manual review and automated testing, if available | Manual review |
-| **Security** | [OWASP Application Security Verification Standard 4.0, Level 2](https://www.owasp.org/images/d/d4/OWASP_Application_Security_Verification_Standard_4.0-en.pdf) | Code submitted must be free of medium- and high-level static and dynamic security vulnerabilities | Clean tests from a static testing SaaS (such as [npm audit](https://docs.npmjs.com/cli/audit)) and from [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), along with documentation explaining any false positives |
-| **User research** | Usability testing and other user research methods must be conducted at regular intervals throughout the development process (not just at the beginning or end) | Artifacts from usability testing and/or other research methods with end users are available at the end of every applicable sprint, in accordance with the vendor’s research plan | Manual review |
-
+| **Deliverable**          | **Performance Standard(s)**                                                                                                                                                                                                                                                                                   | **Acceptable Quality Level**                                                                                                                                                     | **Method of Assessment**                                                                                                                                                                                                                     |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tested Code**          | Code delivered under the order must have substantial test code coverage and a clean code baseVersion-controlled, public repository of code comprising the product, which will remain in the government domain                                                                                                 | Minimum of 90% test coverage of all code                                                                                                                                         | Combination of manual review and automated testing                                                                                                                                                                                           |
+| **Properly Styled Code** | [GSA 18F Front-End Guide](https://frontend.18f.gov/)                                                                                                                                                                                                                                                          | 0 linting errors and 0 warnings                                                                                                                                                  | Combination of manual review and automated testing                                                                                                                                                                                           |
+| **Accessibility**        | Web Content Accessibility Guidelines 2.1 AA standards                                                                                                                                                                                                                                                         | 0 errors reported using an automated scanner, and 0 errors reported in manual testing                                                                                            | [Pa11y](https://github.com/pa11y/pa11y)                                                                                                                                                                                                      |
+| **Deployed**             | Code must successfully build and deploy into staging environment                                                                                                                                                                                                                                              | Successful build with a single command                                                                                                                                           | Combination of manual review and automated testing                                                                                                                                                                                           |
+| **Documented**           | All dependencies are listed and the licenses are documented. Major functionality in the software/source code is documented. Individual methods are documented inline using comments that permit the use of documentation-generation tools such as [JSDoc](http://usejsdoc.org/). A system diagram is provided | Combination of manual review and automated testing, if available                                                                                                                 | Manual review                                                                                                                                                                                                                                |
+| **Security**             | [OWASP Application Security Verification Standard 4.0, Level 2](https://www.owasp.org/images/d/d4/OWASP_Application_Security_Verification_Standard_4.0-en.pdf)                                                                                                                                                | Code submitted must be free of medium- and high-level static and dynamic security vulnerabilities                                                                                | Clean tests from a static testing SaaS (such as [npm audit](https://docs.npmjs.com/cli/audit)) and from [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project), along with documentation explaining any false positives |
+| **User research**        | Usability testing and other user research methods must be conducted at regular intervals throughout the development process (not just at the beginning or end)                                                                                                                                                | Artifacts from usability testing and/or other research methods with end users are available at the end of every applicable sprint, in accordance with the vendor’s research plan | Manual review                                                                                                                                                                                                                                |
 
 ## Endnotes
 
