@@ -131,19 +131,19 @@ Modern software development processes are founded on user-centered design, agile
 
 ### Think about risk in a new way
 
-Over the past several decades, government agencies have turned away from using in-house staff, relying on outside vendors to build their mission-critical technology. The decisions to do this were based on trade-offs that seemed like lower-risk options — often driven by limited capacity and promises of cheaper "off the shelf" tools offered by government contractors.
+Over the past several decades, governments have turned away from using in-house staff, relying on outside vendors to build their mission-critical technology. The decisions to do this were based on trade-offs that seemed like lower-risk options — often driven by limited capacity and promises of cheaper "off the shelf" tools offered by government contractors.
 
-However we’ve learned from examples such as Phoenix that, while government can easily outsource the work of creating new technology systems, it cannot outsource the risk of failure.<sup id="reference-9"><a href="#footnote-9">9</a></sup> Projects that go wrong reflect back on their agencies, not solely on contractors or software providers.
+However we’ve learned from examples such as Phoenix that, while government can easily outsource the work of creating new technology systems, it cannot outsource the risk of failure.<sup id="reference-9"><a href="#footnote-9">9</a></sup> Projects that go wrong reflect back on the government, not solely on contractors or software providers.
 
-Government is ultimately accountable for its mission, so agencies need to have control of and responsibility for the projects that support that mission. The problem an IT budget request aims to solve is not a technical problem; it is a problem related to fulfilling the agency’s mission, and technology is simply a means to that end.
+Government is ultimately accountable for its mission, so departments and agencies need to have control of and responsibility for the projects that support that mission. The problem an IT budget request aims to solve is not a technical problem; it is a problem related to fulfilling the organization's mission, and technology is simply a means to that end.
 
-This doesn’t mean agencies need to do all the work in-house; however, it does mean agencies need to set clear expectations about human outcomes and technical standards related to data security, use, interoperability, monitoring, and evaluation.
+This doesn’t mean government need do all the work in-house; however, it does mean government organizations need to set clear expectations about human outcomes and technical standards related to data security, use, interoperability, monitoring, and evaluation.
 
-Technical knowledge is cheap and abundant, but knowing how to run a state agency is a rare and valuable skill. Government must embrace and own its responsibility and risk of failure, recognizing that technology vendors are hired only to help and should be easily replaceable if they don’t deliver.
+Technical knowledge is cheap and abundant, but knowing how to run a federal department is a rare and valuable skill. Government must embrace and own its responsibility and risk of failure, recognizing that technology vendors are hired only to help and should be easily replaceable if they don’t deliver.
 
 #### Checklist
 
-- [ ] The project has a dedicated, empowered product owner who is an employee of the mission agency — not a contractor, and not an employee of the state’s IT agency
+- [ ] The project has a dedicated, empowered product owner who is an employee of the goverment organization — not a contractor, and not an employee of the state’s IT agency
 - [ ] Stakeholders recognize that the existing approach (waterfall development) fails the majority of the time, and that moving to agile development and modular procurement is, in fact, significantly less risky
 - [ ] Stakeholders regard outside vendors as interchangeable tools to accomplish a goal, rather than as the "owners" of a project or its outcome
 
@@ -167,7 +167,7 @@ Historically, there has been pressure to only use firm fixed price contracts, on
 
 #### Checklist
 
-- [ ] The project has a dedicated, empowered product owner who is an employee of the agency — not a contractor, and not an employee of the state’s IT agency — whose job it is to prioritize work for the development team
+- [ ] The project has a dedicated, empowered product owner who is an employee of the government body — not a contractor, and not an employee of the department or agency's IT  — whose job it is to prioritize work for the development team
 - [ ] The departmental or agency contracting officer has embraced this project, and is enthusiastic about procuring software in new ways
 - [ ] The RFP will be solely about procuring development services, not about procuring a tangible thing
 - [ ] The RFP will require a cross-functional team of designers, user researchers, and developers
@@ -180,7 +180,7 @@ Historically, there has been pressure to only use firm fixed price contracts, on
 
 - Is the product owner empowered to rapidly make authoritative decisions on behalf of the organization?
 - Is the product owner prepared to spend most of their work hours fulfilling the requirements of this new role?
-- Is agency leadership prepared to have product decisions led by identified user needs, based on direct conversations with those users, rather than leadership’s personal preferences?
+- Is leadership prepared to have product decisions led by identified user needs, based on direct conversations with those users, rather than leadership’s personal preferences?
 - Does the RFP establish clear requirements about the regular delivery of working code, documentation, testing, and ownership of all work products remaining with the Crown?
 
 ### Beware the customized commercial software trap
@@ -189,15 +189,15 @@ Commercial off-the-shelf software (COTS) and Software as a Service (SaaS) can be
 
 However for major procurements of specialized, mission-critical technology, be extremely wary of claims that COTS or SaaS will work "out of the box." Vendors will often pitch their "customizable COTS" and SaaS as a magic bullet, promising that it will handle your unique regulatory and process requirements. And it might — but likely only after extensive modifications.
 
-Before signing on to those tools, first talk to other state agencies that have used those customized products. Chances are you’ll learn that what’s being sold as an out of the box solution takes a lot more time and money to customize than you’ve anticipated.
+Before signing on to those tools, first talk to other government organizations that have used those customized products. Chances are you’ll learn that what’s being sold as an out of the box solution takes a lot more time and money to customize than you’ve anticipated.
 
-Instead of mandating any one solution at the budgeting stage, give agencies the space to determine whether to buy or build various pieces of the system. If the budget allocation mandates COTS, then the organization is likely to wind up locked into a highly modified version of a COTS product, cut off from all future upgrades by those modifications without significant expense. Likewise, mandating SaaS is likely to force the organization to cram their needs into a SaaS product like an ill-fitting shoe, while spending a significant amount of additional money on a "software integrator" to connect it to their existing legacy system, leading to the same type of undesirable lock-in.
+Instead of mandating any one solution at the budgeting stage, give space to determine whether to buy or build various pieces of the system. If the budget allocation mandates COTS, then the organization is likely to wind up locked into a highly modified version of a COTS product, cut off from all future upgrades by those modifications without significant expense. Likewise, mandating SaaS is likely to force the organization to cram their needs into a SaaS product like an ill-fitting shoe, while spending a significant amount of additional money on a "software integrator" to connect it to their existing legacy system, leading to the same type of undesirable lock-in.
 
 It may well make sense to use COTS or SaaS as the core of a major new system. However the legislature and the organization needs to go into that with eyes wide open, recognizing that they’re not likely to get a completely turnkey COTS or SaaS solution for specialized software.
 
 #### Checklist
 
-- [ ] The budget allocation does not mandate the use of COTS, SaaS, or custom software, but allows the agency to fund a combination of those as they find necessary
+- [ ] The budget allocation does not mandate the use of COTS, SaaS, or custom software, instead it allows the department or agency to fund a combination of those as they find necessary
 - [ ] Vendors’ claims that their COTS or SaaS product will work immediately, without burdensome modification or customization, are independently investigated by talking to other departments and agencies that have used those products and gone through the customization and deployment process
 
 #### Key questions
@@ -222,36 +222,36 @@ The QASP does not require producing any artifacts explicitly for the purpose of 
 - [ ] There will be no planning or reporting requirements that run counter to agile (i.e., there are no dates by which specific tasks are to be completed and no specifications of exact functionality that will be required — whether in the RFP, the acquisition plan, or legislation)
 - [ ] There will be a government-employed software developer who will ensure compliance with the QASP at the end of each sprint
 - [ ] People providing oversight, above the level of the government product owner, are willing to primarily receive "reports" in the form of demonstrations of functioning software and burn down charts, combined with a review of user stories that have been completed and those that remain to be completed
-- [ ] There is an identified person within the agency who is prepared to provide repeated explanations of progress to each level of oversight, because artifacts of measuring progress on an agile project are unfamiliar to people accustomed to waterfall projects
+- [ ] There is an identified person within the agency who is prepared to provide repeated explanations of progress to each level of oversight, as artifacts of measuring progress on an agile project are unfamiliar to people accustomed to waterfall projects
 
 #### Key questions
 
 - Is it feasible to provide the end-to-end support for such a radically different approach to measuring progress, from the organization to the minister's office? Is there anybody with the power to dig in their heels and demand a Gantt chart, thus potentially making agile methodology non-viable?
-- Whose job will it be to report progress up and out of the agency, e.g., to a legislative oversight committee?
+- Whose job will it be to report progress up and out of the department or agency, e.g., to a legislative oversight committee?
 
 ### Hire tech talent in-house
 
 If nobody in the budget office or budget committee has experience with software development, then they are not well-equipped to consider a software development funding request. The same is true of all organizations — if nobody in project leadership has experience with software development, then the agency is not well-equipped to lead a software development project successfully. The burden is on the departmental senior officials and legislators heads to ensure that their respective organizations prioritize hiring people who have this experience.
 
-While it may be tempting to solve this knowledge gap by relying on somebody from the state’s central IT department, or by relying on a vendor, ultimately mission agencies must have the knowledge in-house to comprehend what they need, what they should be asking of vendors, and assessing the work done by vendors.
+While it may be tempting to solve this knowledge gap by relying on somebody from the departments central IT department, or by relying on a vendor, ultimately government bodies must have the knowledge in-house to comprehend what they need, what they should be asking of vendors, and assessing the work done by vendors.
 
-To determine if your budget office or your leadership has the experience to consider software requests or lead software projects, start by asking around. All but the smallest agencies will have technical staff who can join project leadership, although vanishingly few budget offices currently employ software developers.
+To determine if your budget office or your leadership has the experience to consider software requests or lead software projects, start by asking around. All but the smallest government organizations will have technical staff who can join project leadership, although vanishingly few budget offices currently employ software developers.
 
-If you don’t currently have the knowledge you need in-house, you’ll need to hire someone who does — even if only seasonally or on contract. A developer or designer with experience building modern software, ideally for government, is your best bet. Also, consider authorizing one or more employees to spend some of their training time learning the basics of agile software development. Departments are encouraged to support their stuff, or start initiatives (such as bootcamps), aimed at promoting understanding of foundational modern software development concepts. For example, the IT Strategy team from within IITB has begun working in collaboration with the Research and Development team to create a [Contiuous Learning application](https://github.com/sara-sabr/ContinuousLearningApp), intended to help spread knowledge of, and measure knowledge of, foundational development practices within the department.
+If you don’t currently have the knowledge you need in-house, you’ll need to hire someone who does — even if only seasonally or on contract. A developer or designer with experience building modern software, ideally for government, is your best bet. Also, consider authorizing one or more employees to spend some of their training time learning the basics of agile software development. Departments are encouraged to support their stuff, or start initiatives (such as bootcamps), aimed at promoting understanding of foundational modern software development concepts. For example, the IT Strategy team from within IITB has begun working in collaboration with the Research and Development team to create a [Contiuous Learning application](https://github.com/sara-sabr/ContinuousLearningApp), intended to help spread and measure the knowledge of foundational development practices within the IT branch, and potentially eventually the department or Government of Canada at large.
 
-The personnel cost of bringing in a developer or upskilling your current employees is miniscule in comparison to spending on technology. And once an employee has monitored an agile project from start to finish, they’ll be better equipped to consider future budget requests for custom software.
+The personnel cost of bringing in a developer or upskilling your current employees is miniscule in comparison to spending on technology. Once an employee has monitored an agile project from start to finish, they’ll be better equipped to consider future budget requests for custom software.
 
 Organizations must directly employ enough developers that they can oversee the work being done by vendors. They’ll represent the contracting officer, ensuring that vendors’ work is of a high quality and that vendors are working on the right things.
 
 Although software is never "done" — you’ll always need to adapt to changing technology, policy, regulations, laws, and user needs — there will be a point when you need far fewer developers to continue that work. At that point it becomes especially important to have multiple agency employees who fully grasp the software, who are capable of maintaining it.
 
-For larger projects, you’ll need to contract for a development team indefinitely, under the oversight of a government product owner. Under waterfall, this travels under the name of "Operations and Maintenance," but under agile, O&amp;M is simply continued user research, design, software development, etc.<sup id="reference-11"><a href="#footnote-11">11</a></sup>
+For larger projects, you’ll need to contract for a development team indefinitely, under the oversight of a government employed product owner from the lines of business. Under waterfall, this travels under the name of "Operations and Maintenance," but under agile, O&amp;M is simply continued user research, design, software development, etc.<sup id="reference-11"><a href="#footnote-11">11</a></sup>
 
 #### Checklist
 
 - [ ] There are one or more budget-office employees with experience developing complex, custom software in an agile environment who will assist in evaluating custom-software budget requests
-- [ ] If there are no budget-office employees with relevant experience, the legislature has a contract with a non-conflicted vendor — one with no other contracts with the state and no ties or partnerships with any COTS products
-- [ ] The agency has identified a specific government employee who will be providing technical leadership for the project, along with evidence of their experience developing custom software in an agile environment
+- [ ] If there are no budget-office employees with relevant experience, the Crown has a contract with a non-conflicted vendor — one with no other contracts with the state and no ties or partnerships with any COTS products
+- [ ] The department or agency has identified a specific government employee who will be providing technical leadership for the project, along with evidence of their experience developing custom software in an agile environment
 
 #### Key questions
 
@@ -296,7 +296,7 @@ Don’t measure progress in "story points", lines of code written, person-hours 
 
 - [ ] The vendor team will use agile
 - [ ] The vendor will be required to deploy functioning software into a government-owned environment at the end of each sprint
-- [ ] The project team will interview and test their work with end users routinely, both to inform planned work and to determine whether the work already done is correct
+- [ ] The project team will interview and test their work with end users routinely, both to inform planned work and to determine whether the work already done is correctly
 - [ ] The RFP will have no mention of a detailed project schedule, and there will be no mention of Gantt charts or Independent Validation and Verification (IV&amp;V) contracts
 - [ ] A government employee will be assigned to provide oversight of the project, and will coordinate with project leadership to monitor progress by periodically attending sprint reviews
 
@@ -307,7 +307,7 @@ Don’t measure progress in "story points", lines of code written, person-hours 
 
 ### Limit total spending
 
-The greater the amount of money spent on a software project, the greater the odds of failure. As a general rule, plan to spend no more than \$10 million on an entire project.<sup id="reference-12"><a href="#footnote-12">12</a></sup> (There are rare exceptions for extraordinarily complex systems like employment insurance, pension plans, and or old age security.)
+The greater the amount of money spent on a software project the greater the odds of failure. As a general rule, plan to spend no more than \$10 million on an entire project.<sup id="reference-12"><a href="#footnote-12">12</a></sup> (There are rare exceptions for extraordinarily complex systems like employment insurance, pension plans, and or old age security.)(TO-DO: Explore new limits for these cases)
 
 #### Checklist
 
@@ -322,7 +322,7 @@ The greater the amount of money spent on a software project, the greater the odd
 
 Using a single vendor over a long period of time, or for a large number of teams, may feel more comfortable, but it inevitably leads to vendor lock-in. Breaking up projects into several small contracts incentivizes vendors to build a sustainable software ecosystem, instead of a monolith, and makes each contract small enough that the odds of success increase markedly.<sup id="reference-13"><a href="#footnote-13">13</a></sup>
 
-Require that no more than \$2 million be spent on any single contract annually, and that no contract last for more than three years, including option periods. That way, you’ll get no more than two development teams from a single vendor. If the project needs more development teams, obtain them from another vendor and have them work separately. Limit the RFP, too, keeping it below 20 pages; don’t spend any longer than 60 days writing it.
+Require that no more than \$2 million be spent on any single contract annually and that no contract last for more than three years, including option periods. That way you’ll get no more than two development teams from a single vendor. If the project needs more development teams obtain them from another vendor and have them work separately. Limit the RFP, too, keeping it below 20 pages; don’t spend any longer than 60 days writing it.
 
 In addition to preventing lock-in, there’s another benefit to using smaller contracts: they’re less likely to be protested, because the dollar value doesn’t justify the trouble and legal costs. If you’re respectful and transparent with vendors, and don’t require hundreds of pages of proposals, they will likely want to do business with your organizations in the future.
 
@@ -360,7 +360,7 @@ Don’t replace the old legacy system with a new legacy system. Insist on loosel
 
 Your existing vendors are unlikely to employ the modern software development practices outlined in this handbook — they were hired for their legacy practices back when that was what you needed. To find vendors who meet your new needs, you’ll likely need to identify and attract new companies that use modern software development practices.
 
-If it is important to get bids from local vendors then know that odds are good that there are many qualified small businesses that can deliver agile development programs in your area.<sup id="reference-12"><a href="#footnote-12">12</a></sup> However, if you want to drive down the price of bids, then it’s important to consider working with remote or distributed (rather than on-site) vendor teams.
+(TO-DO)If it is important to get bids from local vendors then know that odds are good that there are many qualified small businesses that can deliver agile development programs in your area.<sup id="reference-12"><a href="#footnote-12">12</a></sup> However, if you want to drive down the price of bids, then it’s important to consider working with remote or distributed (rather than on-site) vendor teams.
 
 In places like California, Washington, New York, Virginia, and Maryland, the cost of an agile team can be easily twice the cost of a team in the Midwest or the northern plains — a difference of over \$1 million each year with no difference in quality. That’s a price point at which it’s worth rethinking how important it is that the team be local, or even in-state.<sup id="reference-13"><a href="#footnote-13">13</a></sup> Encouraging distributed vendor teams also gives you access to a wider talent pool, so it’s smart to embrace distributed working best practices to engage with development teams<sup id="reference-14"><a href="#footnote-14">14</a></sup> and only require on-site visits when necessary (such as for user research).
 
@@ -597,9 +597,15 @@ Per [the "Require demos, not memos" best practice](#require-demos-not-memos), he
 
 <p class="footnote" id="footnote-10">
 
-(TO-DO: Canadian Example)
+Although not strictly adhereing to the guidelines proposed in this document, examples of agile procurement in Canada can be found here
 
-10. For an example RFP, see the <a href="https://github.com/ustaxcourt/case-management-rfq">U.S. Tax Court’s 2018 EF-CMS RFQ</a>, which includes a QASP, under the <a href="https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards">"Deliverables and Performance Standards" section</a>.
+10.1 <a href="https://buyandsell.gc.ca/procurement-data/tender-notice/PW-17-00788470">“OPEN BY DEFAULT” PORTAL PROCUREMENT PILOT (24062-180072/B)</a>
+
+10.2 <a href="https://buyandsell.gc.ca/procurement-data/tender-notice/PW-18-00851200">Challenge-Based Solicitation (CBS) For an Event Broker Solution (2B0KB-1874371)</a>
+
+10.3 <a href="https://buyandsell.gc.ca/procurement-data/tender-notice/PW-XL-108-36755">Learning Platform (0X001-190594/B)</a>
+
+10.4 The original example of an agile RFP, as per outlined in this document, see the American example, <a href="https://github.com/ustaxcourt/case-management-rfq">U.S. Tax Court’s 2018 EF-CMS RFQ</a>, which includes a QASP, under the <a href="https://github.com/ustaxcourt/case-management-rfq/blob/master/02_SOW.md#deliverables-and-performance-standards">"Deliverables and Performance Standards" section</a>.
 
 <a href="#reference-10">↩︎</a></p>
 
