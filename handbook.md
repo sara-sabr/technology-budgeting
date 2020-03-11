@@ -296,7 +296,7 @@ Don’t measure progress in "story points", lines of code written, person-hours 
 
 - [ ] The vendor team will use agile
 - [ ] The vendor will be required to deploy functioning software into a government-owned environment at the end of each sprint
-- [ ] The project team will interview and test their work with end users routinely, both to inform planned work and to determine whether the work already done is correctly
+- [ ] The project team will interview and test their work with end users routinely, both to inform planned work and to determine whether the work already done is correct
 - [ ] The RFP will have no mention of a detailed project schedule, and there will be no mention of Gantt charts or Independent Validation and Verification (IV&amp;V) contracts
 - [ ] A government employee will be assigned to provide oversight of the project, and will coordinate with project leadership to monitor progress by periodically attending sprint reviews
 
@@ -360,9 +360,9 @@ Don’t replace the old legacy system with a new legacy system. Insist on loosel
 
 Your existing vendors are unlikely to employ the modern software development practices outlined in this handbook — they were hired for their legacy practices back when that was what you needed. To find vendors who meet your new needs, you’ll likely need to identify and attract new companies that use modern software development practices.
 
-(TO-DO)If it is important to get bids from local vendors then know that odds are good that there are many qualified small businesses that can deliver agile development programs in your area.<sup id="reference-12"><a href="#footnote-12">12</a></sup> However, if you want to drive down the price of bids, then it’s important to consider working with remote or distributed (rather than on-site) vendor teams.
+If it is important to get bids from local vendors then know that odds are good that there are many qualified small businesses that can deliver agile development programs in your area.<sup id="reference-12"><a href="#footnote-12">12</a></sup> However, if you want to drive down the price of bids, then it’s important to consider working with remote or distributed (rather than on-site) vendor teams.
 
-In places like California, Washington, New York, Virginia, and Maryland, the cost of an agile team can be easily twice the cost of a team in the Midwest or the northern plains — a difference of over \$1 million each year with no difference in quality. That’s a price point at which it’s worth rethinking how important it is that the team be local, or even in-state.<sup id="reference-13"><a href="#footnote-13">13</a></sup> Encouraging distributed vendor teams also gives you access to a wider talent pool, so it’s smart to embrace distributed working best practices to engage with development teams<sup id="reference-14"><a href="#footnote-14">14</a></sup> and only require on-site visits when necessary (such as for user research).
+In regions heavily populated by government departments, such as the National Capital Region (NCR) many vendors are well versed in legacy government technologies. In order to find the modern talent required who are presently not in the business of bidding for large government contracts, are likely to exist ourside of the typical government epicentres. Further, cost savings could be realized through leveraging companies in regions where the cost for software development and related services is reduced.<sup id="reference-13"><a href="#footnote-13">13</a></sup> In order to engage with new and modern talented Canadian countries throughout the nation it’s worth rethinking how important it is that the team be local, or even in-province.Encouraging distributed vendor teams also gives you access to a wider talent pool, so it’s smart to embrace distributed working best practices to engage with development teams<sup id="reference-14"><a href="#footnote-14">14</a></sup> and only require on-site visits when necessary (such as for user research).
 
 How do you find those qualified small businesses? There are a number of cities and states that have created a pool of agile software vendors. For example, [California’s Department of Technology has a vendor pool](https://github.com/CDTProcurement/adpq) that adds new companies on a rolling basis. Seek out and draw from these vendor pools, and include some of these companies in future RFP processes. Also, ask around among colleagues in other state agencies to see if they can recommend any vendors to include. Finally, try thinking like a software developer looking for a job, and check out sites that are well-known for posting job opportunities and professional networking, to identify agile vendors in your state. This entire process only takes a few hours.
 
@@ -615,9 +615,19 @@ Although not strictly adhereing to the guidelines proposed in this document, exa
 
 <p class="footnote" id="footnote-11">11. In The Standish Group’s 2014 CHAOS Report, based on a survey of 25,000 software projects, they found that <a href="https://www.standishgroup.com/sample_research_files/CHAOSReport2014.pdf#page=3">software projects’ outcomes get worse as more money is spent</a>. Limiting the spending on each contract segments the project into smaller components, making each component — and the entire project — more likely to succeed. <a href="#reference-11">↩︎</a></p>
 
-<p class="footnote" id="footnote-12">12. Alaska’s Department of Health &amp; Social Services faced this challenge in 2017, and their Contracts and Procurement Manager wrote about the process that they used to attract small, agile, Alaskan vendors in "<a href="https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/">How Alaska is using transparency to attract modern software vendors</a>." <a href="#reference-12">↩︎</a></p>
+<p class="footnote" id="footnote-12">
 
-<p class="footnote" id="footnote-13">13. The Bureau of Labor Statistics provides <a href="https://www.bls.gov/oes/current/oes151132.htm#IDX701">state-level wage information for software developers</a>, which shows that the difference between the most expensive developers (Washington state) and the least expensive (Puerto Rico) is a 150% wage gap. Even within states there can be tremendous variation in labor costs between urban areas and rural areas. As a result, insisting that vendor teams work on-site can double the cost of software. <a href="#reference-13">↩︎</a></p>
+(Maybe TO-DO: Canadian Example Needed)
+
+12. Alaska’s Department of Health &amp; Social Services faced this challenge in 2017, and their Contracts and Procurement Manager wrote about the process that they used to attract small, agile, Alaskan vendors in "<a href="https://18f.gsa.gov/2017/09/12/how-alaska-is-using-transparency/">How Alaska is using transparency to attract modern software vendors</a>." 
+
+<a href="#reference-12">↩︎</a></p>
+
+<p class="footnote" id="footnote-13">
+
+13. Job Bank, run by Employment and Social Development Canada, a department within the Government of Canada, provides <a href="https://www.jobbank.gc.ca/marketreport/wages-occupation/5482/ca"> these data </a> which outline low, median, and high wages for 'Software Design Engineer in Canada'. The median wage for labour in this category in Novia Scotia is 78% that of Ontario, for example. Or conversely, Ontario labour in this category is ~28% more expensive than that of Nova Scotia. As a result, insisting that vendor teams work on-site can notably increase the cost of software. 
+
+<a href="#reference-13">↩︎</a></p>
 
 <p class="footnote" id="footnote-14">14. See "<a href="https://18f.gsa.gov/2015/10/15/best-practices-for-distributed-teams/">18F’s best practices for making distributed teams work</a>" for specifics. <a href="#reference-14">↩︎</a></p>
 </small>
