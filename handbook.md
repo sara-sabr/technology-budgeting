@@ -316,7 +316,7 @@ Don’t measure progress in "story points," lines of code written, person-hours 
 
 - [ ] The vendor team will use agile
 - [ ] The vendor will be required to deploy functioning software into a government-owned environment at the end of each sprint
-- [ ] The project team will interview and test their work with end users routinely, both to inform planned work and to determine whether the work already done is correct
+- [ ] The project team will interview and test their work with end users routinely, both to inform planned work and to determine whether the work already done is correctly
 - [ ] The RFP will have no mention of a detailed project schedule, and there will be no mention of Gantt charts or Independent Validation and Verification (IV&amp;V) contracts
 - [ ] A legislative staffer will be assigned to provide oversight of the project, and will coordinate with project leadership to monitor progress by periodically attending sprint reviews
 
